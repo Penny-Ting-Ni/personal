@@ -69,11 +69,11 @@ p {
 }
 
 .card-deck {
-	width: 60%;
+	width: 60%; 
 	margin: 0 auto;
 	text-align: center;
 }
 
 .card img{
-    height: 200px;
+	object-fit: contain;
 }
