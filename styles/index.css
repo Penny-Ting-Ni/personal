@@ -54,7 +54,7 @@ p {
 }
 
 .icon-size {
-	width: 27px;	
+	width: 50px;	
 }
 
 .social-container {
@@ -62,11 +62,13 @@ p {
 	margin-top: 20px;
 }
 
+
 .card {
 	border: 0;
-	
 	align-items: center;
+	margin: 0 auto;
 }
+
 
 .card-deck {
 	width: 60%; 
@@ -74,6 +76,25 @@ p {
 	text-align: center;
 }
 
-.card img{
+.card-img{
 	object-fit: contain;
+	margin-bottom: 50px;
+}
+
+.accordion {
+	width: 60%; 
+	margin: 0 auto;
+}
+
+.panel-group {
+
+	background-color: white;
+}
+
+.panel-panel-default {
+	background-color: white;
+}
+
+.col-sm-6 {
+	width: 50%;
 }
